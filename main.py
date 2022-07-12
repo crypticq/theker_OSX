@@ -4,6 +4,11 @@ import requests
 import time
 import random
 import os
+import sys
+
+
+if not sys.platform == "darwin":
+    sys.exit(0)
 
 
 
